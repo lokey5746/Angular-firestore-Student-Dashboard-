@@ -13,12 +13,14 @@ import { AngularFireModule } from '@angular/fire';
 import{ AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
 import { EmployeeService } from './shared/employee.service';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     EmployeesComponent,
     EmployeeComponent,
-    EmployeeListComponent
+    EmployeeListComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
